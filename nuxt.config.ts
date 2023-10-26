@@ -1,5 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  runtimeConfig: {
+    youtubeApiKey: "",
+    youtubeClientId: "",
+    youtubeClientSecret: "",
+    featuredYoutubePlaylistId: "PLF6H943RmZlq3KgMxbVR5BgJcUdBAm9rD",
+    public: {
+      apiBase: "",
+    },
+  },
+
   devtools: {
     enabled: true,
 
@@ -8,7 +18,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ['@/assets/css/main.css'],
+  css: ["@/assets/css/main.css"],
 
   postcss: {
     plugins: {
@@ -17,5 +27,5 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/image"]
-})
+  modules: ["@nuxt/image"],
+});
