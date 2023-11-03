@@ -1,7 +1,7 @@
 <template>
   <article class="relative w-full z-0 flex overflow-hidden rounded shadow-md">
     <div
-      class="h-full w-full flex flex-col items-end bg-gradient-to-b from-transparent to-black/60 text-white text-left"
+      class="h-full w-full flex flex-col items-end bg-gradient-to-b from-transparent to-black/60 text-white text-left "
     >
       <div class="w-full flex mt-auto px-4 mb-4">
         <h1 class="text-xl w-full">
